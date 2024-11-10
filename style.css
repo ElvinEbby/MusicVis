@@ -1,0 +1,52 @@
+
+
+body {
+    font-family: "Open Sans";
+}
+
+#main {
+    margin: 10px 20px;
+}
+
+text.label {
+    text-anchor: middle;
+    font-size: 11px;
+    fill: #555;
+    font-family: sans-serif;
+}
+
+.axis text {
+    fill: #555;
+}
+
+.axis line,
+.axis path {
+    stroke: #555;
+}
+
+text.title {
+    text-anchor: middle;
+    font-size: 14px;
+    fill: #333;
+}
+
+
+g text {
+    opacity: 0; 
+    font-size: 10px; 
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+
+g:hover text {
+    opacity: 1;
+}
+
+
+g:hover circle {
+    opacity: 1;
+}
+
+
+
+
